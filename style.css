@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+
+}
+
+.header {
+    border: 2px solid gray;
+    font-size: 18px;
+    color: blue;
+    padding-left: 10px;
+}
+.info {
+    display: flex;
+    border: 2px solid gray;
+}
+.info img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
