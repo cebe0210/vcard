@@ -5,16 +5,19 @@
         grid-template-rows: repeat(6, auto);
     }
     .header {
-    
+        
+        background: -webkit-linear-gradient(135deg, rgb(57, 56, 56), rgb(208, 199, 204));
+        background: linear-gradient(115deg, rgb(57, 56, 56), rgb(208, 199, 204));
         border: 2px solid gray;
         font-size: 16px;
-        color: rgb(110, 109, 109);
+        color: rgb(223, 223, 223);
         padding-left: 10px;
         grid-area: 1/1 ;
     }
     .info {
-    
-        border: 2px solid gray;
+        background: -webkit-linear-gradient(-25deg, rgb(57, 56, 56), rgb(208, 199, 204));
+        background: linear-gradient(-25deg, rgb(57, 56, 56), rgb(208, 199, 204));
+        border: 2px solid rgb(212, 211, 211);
         padding-left: 10px;
     }
     .info img {
